@@ -5,6 +5,7 @@
   "main": "precache-manifest.b8fa770522cb4afc12fb65c4b2b2f668.js",
   "homepage": "https://Kohzuki-Nanako.github.io/react-weather/",
   "dependencies": {
+    "bulma": "^0.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-image-resizer": "^1.3.0"
