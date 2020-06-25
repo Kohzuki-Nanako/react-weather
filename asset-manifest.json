@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/react-weather/static/js/main.f86b1905.chunk.js",
+    "main.js.map": "/react-weather/static/js/main.f86b1905.chunk.js.map",
+    "runtime-main.js": "/react-weather/static/js/runtime-main.2a8e3ffc.js",
+    "runtime-main.js.map": "/react-weather/static/js/runtime-main.2a8e3ffc.js.map",
+    "static/css/2.0c0672e5.chunk.css": "/react-weather/static/css/2.0c0672e5.chunk.css",
+    "static/js/2.3b7c86f3.chunk.js": "/react-weather/static/js/2.3b7c86f3.chunk.js",
+    "static/js/2.3b7c86f3.chunk.js.map": "/react-weather/static/js/2.3b7c86f3.chunk.js.map",
+    "index.html": "/react-weather/index.html",
+    "precache-manifest.ec773d4ff279fc3489500ea88bb3759e.js": "/react-weather/precache-manifest.ec773d4ff279fc3489500ea88bb3759e.js",
+    "service-worker.js": "/react-weather/service-worker.js",
+    "static/css/2.0c0672e5.chunk.css.map": "/react-weather/static/css/2.0c0672e5.chunk.css.map",
+    "static/js/2.3b7c86f3.chunk.js.LICENSE.txt": "/react-weather/static/js/2.3b7c86f3.chunk.js.LICENSE.txt",
+    "static/media/kappa_man2.png": "/react-weather/static/media/kappa_man2.8e5e3010.png",
+    "static/media/sky_line04_rainbow.png": "/react-weather/static/media/sky_line04_rainbow.f854319b.png",
+    "static/media/スクリーンショット 2020-06-25 0.36.56.png": "/react-weather/static/media/スクリーンショット 2020-06-25 0.36.56.aaae6431.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a8e3ffc.js",
+    "static/css/2.0c0672e5.chunk.css",
+    "static/js/2.3b7c86f3.chunk.js",
+    "static/js/main.f86b1905.chunk.js"
+  ]
+}
