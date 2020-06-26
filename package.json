@@ -5,10 +5,12 @@
   "main": "precache-manifest.b8fa770522cb4afc12fb65c4b2b2f668.js",
   "homepage": "https://Kohzuki-Nanako.github.io/react-weather/",
   "dependencies": {
+    "@types/styled-components": "^5.1.0",
     "bulma": "^0.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-image-resizer": "^1.3.0"
+    "react-image-resizer": "^1.3.0",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "axios": "^0.19.2",
