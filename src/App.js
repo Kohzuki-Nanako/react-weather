@@ -1,13 +1,8 @@
 import Image from 'react-image-resizer';
 import React ,{ useState } from "react";
-import Weather from "./components/Weather/Weather";
-import Form from "./components/Form/Form";
 import tenkikun from "./media/kappa_man2.png"
 import irasutoya from "./media/スクリーンショット 2020-06-25 0.36.56.png"
 import rainbow from "./media/sky_line04_rainbow.png"
-import './App.css';
-import Form from './form';
-import Weather from './weather';
 
 
 const style = {
@@ -126,6 +121,54 @@ const Forcast = () => {
     </div>
   );
 }
+
+const Form = (this) => {
+  return (
+      <form onSubmit={this.getWeather}>
+       <div class="field">
+          <label class="label">地区</label>
+           <div class="control">
+             <input class="input" type="text" placeholder="tokyo"/>
+           </div>
+       </div>
+       <div class="field">
+        <label class="label">国</label>
+           <div class="control">
+            <input class="input" type="text" placeholder="japan"/>
+           </div>
+       </div>
+       <div class="control">
+           <button class="button is-primary">Submit</button>
+       </div>
+      </form>
+  )
+}
+
+const Weather = ({description, city, country, error, temperature}) => {
+
+  function matchValues () {
+  if(description) {
+      const weatherDescription = description.split(' ')
+      const keyWords = ['cloudy','clouds', 'cloud', 'overcast']
+      for(let i = 0; i < weatherDescription.length; i++) {
+          if(keyWords.includes(weatherDescription[i])) {
+              return <img src='react-weather/src/media/job_kisyou_yohou.png' alt="予報士"/>
+          }
+      }
+  }}
+
+  return (
+
+      <div>
+          {city && country && <p>{city}, {country}</p>}
+          {temperature && <p>{temperature}  °F</p>}
+          {description && <p> Conditions: {description}</p>}
+          {error && <p>{error}</p>}
+          {description && matchValues()}
+      </div>
+  )
+}
+
 
 
 
